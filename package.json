@@ -6,8 +6,6 @@
   "private": false,
   "scripts": {
     "start": "node index.js",
-    "start:ipv6": "node start-ipv6.js",
-    "start:docker:ipv6": "USE_IPV6_ONLY=true node index.js",
     "build": "echo \"No build needed for static site\""
   },
   "dependencies": {
